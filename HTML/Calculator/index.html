@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="icon"  type="image/png"  href="calci.png" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="forkit.css" type="text/css">
+</head>
+<body>
+<a class="forkit" data-text="My Github" data-text-detached="omerharshit" href="https://github.com/omerharshit"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+   <script src="forkit.js"></script>
+
+<div  class="a" style=" position: fixed; /* or absolute */
+  top: 50%;
+  left: 55%;
+   margin-top: -50px;
+  margin-left: -100px;
+    transform: translate(-50%, -50%);" 
+  >
+<h3 style="margin-bottom: 4px; text-align: center; color: black; font-size: 35px;" >Simple<a class="h3"> Calculator</h3>
+<form Name="calc">
+<table id="calc" border=2>
+<tr>
+
+<td colspan=5><input id="btn" id="btne"  id="btnm"  id="btnc" name="display" onkeypress="return event.charCode >= 48 && event.charCode <= 57" type="text"></td>
+<td style="display:none"><input name="M" type="number"></td>
+</tr>
+<tr>
+<td><input id="btnm" type=button value="MC" OnClick="calc.M.value=''"></td>
+<td><input id="btn" type=button value="0" OnClick="calc.display.value+='0'"></td>
+<td><input id="btn" type=button value="1" OnClick="calc.display.value+='1'"></td>
+<td><input id="btn" type=button value="2" OnClick="calc.display.value+='2'"></td>
+<td><input id="btnf" type=button value="+" OnClick="calc.display.value+='+'"></td>
+</tr>
+<tr>
+<td><input id="btnm" type=button value="MS" OnClick="calc.M.value=calc.display.value"></td>
+<td><input id="btn" type=button value="3" OnClick="calc.display.value+='3'"></td>
+<td><input id="btn" type=button value="4" OnClick="calc.display.value+='4'"></td>
+<td><input id="btn" type=button value="5" OnClick="calc.display.value+='5'"></td>
+<td><input id="btnf" type=button value="-" OnClick="calc.display.value+='-'"></td>
+</tr>
+<tr>
+<td><input id="btnm" type=button value="MR" OnClick="calc.display.value=calc.M.value"></td>
+<td><input id="btn" type=button value="6" OnClick="calc.display.value+='6'"></td>
+<td><input id="btn" type=button value="7" OnClick="calc.display.value+='7'"></td>
+<td><input id="btn" type=button value="8" OnClick="calc.display.value+='8'"></td>
+<td><input id="btnf" type=button value="x" OnClick="calc.display.value+='*'"></td>
+</tr>
+<tr>
+<td><input id="btnm" type=button value="M+" OnClick="calc.M.value=(Number(calc.M.value))+(Number(calc.display.value))"></td>
+<td><input id="btn" type=button value="9" OnClick="calc.display.value+='9'"></td>
+<td><input id="btnl" type=button value="x2" OnClick="calc.display.value=Math.pow(calc.display.value,2)"></td>
+
+
+<td><input id="btnl" type=button value="√" OnClick="calc.display.value=Math.sqrt(calc.display.value)"></td>
+<td><input id="btnf" type=button value="/" OnClick="calc.display.value+='/'"></td>
+</tr>
+<tr>
+<td><input id="btnl" type=button value="1/x" OnClick="calc.display.value=1/calc.display.value"></td>
+<td><input id="btnl" type=button value="." OnClick="calc.display.value+='.'"></td>
+<td><input id="btnl" type=button value="±" 
+
+OnClick="calc.display.value=(calc.display.value==Math.abs(calc.display.value)?-(calc.display.value):Math.abs(calc.display.value))">
+
+</td>
+<td><input id="btnc" type=button value="C" OnClick="calc.display.value=''"></td>
+<td><input id="btne" type=button value="="  OnClick="calc.display.value=eval(calc.display.value)"></td>
+
+</tr>
+</table>
+</form>
+<div>
+</body>
+</html>
