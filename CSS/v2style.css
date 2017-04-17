@@ -1,0 +1,169 @@
+.box-title{
+	color: black;
+}
+	.box-title:hover{
+     color: red;
+     font-size:30px;
+     background-color: black;
+	}
+.box-title:visited{
+     color: red;
+     font-size:30px;
+     background-color: black;
+	}
+.box-content
+{
+	color:black;
+}
+.box-content:hover{
+	color:white;
+	font-size: 20px;
+	background-color: black;
+}
+.box-content:visited{
+	color:white;
+	font-size: 20px;
+	background-color: black;
+}
+.center{
+	text-decoration:none;
+	 text-align:center; 
+	 color: white;
+}
+.center:hover{
+	text-decoration:none;
+	 text-align:center; 
+	 color: white;
+	 font-size: 45px;
+}
+.center:visited{
+	text-decoration:none;
+	 text-align:center; 
+	 color: white;
+	 font-size: 45px;
+}
+.about-me{
+	 color: white; 
+	 font-size: 20px;
+	 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+
+.move{
+	font-size: 30px;
+}
+.move:visited{
+	font-size: 30px;
+}
+.set{
+	color: white;
+}
+.malarkey{
+	color: red;
+}
+#hide{
+	color: white;
+}
+.h3{
+	 color: white; 
+	 text-align: center;
+	 font-size: 30px;
+}
+.h3:hover{
+	 color: white; 
+	 text-align: center;
+	 font-size: 40px;
+}
+.h3:visited{
+	 color: white; 
+	 text-align: center;
+	 font-size: 40px;
+}
+.h2{
+	 color: white; 
+	 text-align: center;
+}
+.h2:hover{
+	 color: white; 
+	 text-align: center;
+	 font-size: 35px;
+}
+.h2:visited{
+	 color: white; 
+	 text-align: center;
+	 font-size: 35px;
+}
+.fp{
+	color:white; 
+	font-size:30px; 
+	text-align: center; 
+	margin-bottom: 30px;
+}
+.fp:hover{
+	color:white; 
+	font-size:40px; 
+	text-align: center; 
+	margin-bottom: 40px;
+}
+.fp:visited{
+	color:white; 
+	font-size:40px; 
+	text-align: center; 
+	margin-bottom: 40px;
+}
+.shift{
+	color: white; 
+	font-size: 20px; 
+	text-align: center;
+}
+.shift:hover{
+	color: white; 
+	font-size: 30px; 
+	text-align: center;
+}
+.shift:visited{
+	color: white; 
+	font-size: 30px; 
+	text-align: center;
+}
+</style>
+ <style type="text/css">
+    	::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+	background-color: #CCCCCC;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent)
+}
+.wonder-links {
+	color: #000;
+	background-color: #eeeeee;
+	padding: 6px 15px;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+.wonder-link-right {
+	margin-left: 10px;
+}
+.button-box {
+	position: absolute;
+	width: calc(100% - 10px);
+	bottom: 5px;
+	padding-left: 10px;
+}
